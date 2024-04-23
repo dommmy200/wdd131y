@@ -11,23 +11,41 @@
 <body>
     <header>
         <h1>WDD 131 - Dynamic Web Fundamentals - <span>Abah D. Odeh</span></h1>
-        <nav>
+        <nav class="navigation wrap">
             <ul>
-                <li><a href="#">LinkedIn profile page.</a></li>
+                <li><a href="#">LinkedIn profile page</a></li>
                 <li><a href="https://byui.instructure.com/">I-Learn </a></li>
                 <li><a href="https://www.churchofjesuschrist.org/study/scriptures">favorite Scripture</a></li>
-                <li><a href="#"></a>Final Project </li>
+                <li><a href="#">Final Project</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section class="card"></section>
-        <section class="card"></section>
+    <main class="parent">
+        <section class="card">
+            <h2>About Me</h2>
+            <div>
+                <p>My name is Abah Dominic. I live and work in Nigeria where I am from. I am an Air Traffic Controller. I am currently pursuing a degree in Software Development. I am happily married and blessed with four boys</p>
+                <img src="/images/me-home2.webp" alt="Dominic Abah">
+            </div>
+            <div>
+                <h2>Benue, Nigeria</h2>
+                <hr>
+                <div>
+                    <figure>
+                        <img src="/images/naija-flag.webp" alt="Nigerian flag">
+                        <figcaption>Official Flag of Nigeria</figcaption>
+                    </figure>
+                    <p>Nigeria, officially the Federal Republic of Nigeria, is a country in West Africa. It is situated between the Sahel to the north and the Gulf of Guinea to the south in the Atlantic Ocean. it is the most populous country in Africa with 230 million people, and the world's sixth-most populous country.</p>
+                </div>
+            </div>
+        </section>
+        <section class="card">
+            <h2>Web Dev Resources</h2>
+            <div></div>
+        </section>
     </main>
     <footer>
-        <p class="footer">
-            <span id="currentyear"></span>
-        </p>
+        <p class="footer"></p>
         <p id="lastModified"></p>
     </footer>
     <script src="/scripts/getdates.js"></script>
