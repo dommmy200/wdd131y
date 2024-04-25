@@ -37,7 +37,7 @@ body {
 	/* border: 1px dotted cyan; */
 }
 .navigation a:hover {
-	font-weight: 700;
+	font-weight: 500;
 }
 .navigation li {
 	flex: 1 1 100%; /* difference between auto and 100% flex-basis - turn on link borders to view */
