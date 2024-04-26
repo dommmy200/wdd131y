@@ -12,6 +12,8 @@ body {
 
 	font-family: "Roboto", sans-serif;
     font-size: 48px;
+	font-weight: 400;
+	font-style: normal;
 	/* text-shadow: 4px 4px 4px #aaa; */
 }
 .navigation ul {
@@ -38,10 +40,14 @@ body {
 }
 .navigation a:hover {
 	font-weight: 500;
+	font-size: large;
+	font-family: "Open Sans";
+	color: rgb(6, 6, 6);
+	background-color: #eee;
 }
 .navigation li {
 	flex: 1 1 100%; /* difference between auto and 100% flex-basis - turn on link borders to view */
-	font-family: 'Tangerine', serif;
+	font-family: 'Roboto', serif;
 	font-size: xx-large;
 	font-weight: 700;
 }
