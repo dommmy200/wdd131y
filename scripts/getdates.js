@@ -48,20 +48,15 @@ function insertTextAndModifiedDate() {
 
 function colorMyName() {
     const h1 = document.getElementById('titled');
-    const afterText = 'Abah D. Odeh';
-    const beforeText = "WDD 131 - Dynamic Web Fundamentals - ";
+    const myName = 'Abah D. Odeh';
+    const myCourse = "WDD 131 - Dynamic Web Fundamentals - ";
 
     const spanElement = document.createElement("span");
-    spanElement.textContent = afterText;
+    spanElement.textContent = myName;
     spanElement.style.color = "yellow";
 
-    // const newH1 = document.createElement('h1');
-    // newH1.textContent = beforeText;
-    // newH1.innerHTML += spanElement.outerHTML;
-
-    const finalText = beforeText + spanElement.outerHTML;
-    h1.innerHTML = finalText;
-    // h1.innerText = newH1;
+    const myTitle = myCourse + spanElement.outerHTML;
+    h1.innerHTML = myTitle;
 }
 colorMyName();
 insertDateAndIcon();
