@@ -55,8 +55,13 @@ function colorMyName() {
     spanElement.textContent = afterText;
     spanElement.style.color = "yellow";
 
+    // const newH1 = document.createElement('h1');
+    // newH1.textContent = beforeText;
+    // newH1.innerHTML += spanElement.outerHTML;
+
     const finalText = beforeText + spanElement.outerHTML;
     h1.innerHTML = finalText;
+    // h1.innerText = newH1;
 }
 colorMyName();
 insertDateAndIcon();
