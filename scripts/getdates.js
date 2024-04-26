@@ -46,5 +46,18 @@ function insertTextAndModifiedDate() {
     dateContainer.appendChild(dateTextNode);
 }
 
+function colorMyName() {
+    const h1 = document.getElementById('titled');
+    const afterText = 'Abah D. Odeh';
+    const beforeText = "WDD 131 - Dynamic Web Fundamentals - ";
+
+    const spanElement = document.createElement("span");
+    spanElement.textContent = afterText;
+    spanElement.style.color = "yellow";
+
+    const finalText = beforeText + spanElement.outerHTML;
+    h1.innerHTML = finalText;
+}
+colorMyName();
 insertDateAndIcon();
 insertTextAndModifiedDate();
