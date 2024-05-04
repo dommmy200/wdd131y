@@ -70,6 +70,11 @@
         font-size: large;
         font-weight: 900;
     }
+    main h2 {
+        text-align: center;
+        font-family: Princess Sofia, sans-serif;
+        letter-spacing: 3px;
+    }
     .show li {
         display: block;
         width: 475px;

@@ -33,7 +33,7 @@
         /* height: 81vh; */
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 75px auto;
+        grid-template-rows: 75px 50px auto;
         gap: 15px;
         /* grid-template-columns: 1fr; */
     }
@@ -45,8 +45,15 @@
         font-size: xxx-large;
         font-family: Montserrat, sans-serif, serif;
     }
-    main div {
+    main h2 {
         grid-row: 2/3;
+        text-align: center;
+        font-family: Princess Sofia, sans-serif;
+        letter-spacing: 5px;
+        font-size: xx-large;
+    }
+    main div {
+        grid-row: 3/4;
         width: 100%;
         /* background-color: bisque; */
         display: grid;
