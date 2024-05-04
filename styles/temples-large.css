@@ -90,7 +90,7 @@
         color: rgb(0, 0, 0);
         background-color: rgb(158, 0, 0);
     }
-    figcaption h2{
+    figcaption {
         padding: 20px;
         font-family: Princess Sofia ,sans-serif, serif;
         font-size: x-large;
